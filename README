@@ -1,1 +1,15 @@
-Very simple dmenu / rofi client for gpaste clipboard manager.
+Rofi helper script for gpaste clipboard manager.
+
+Displays last pastes and pushes selection to the top.
+
+Add this script to list of modi in the config:
+
+    configuration {
+        modi: "run,gp:~/path/to/the/script";
+    }
+
+Or run in `-show` parameter:
+
+    rofi -show gp:~/path/to/the/script
+
+Yes, it's all it takes. Kept as an example.
